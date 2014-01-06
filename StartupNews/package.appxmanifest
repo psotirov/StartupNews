@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="44112PavelSotirov.StartupNews" Version="1.0.0.4" Publisher="CN=40F4955F-A981-42C0-8618-37141C61F40E" />
+  <Properties>
+    <DisplayName>StartupNews</DisplayName>
+    <PublisherDisplayName>Pavel Sotirov</PublisherDisplayName>
+    <Logo>images\store-logo\store-logo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="StartupNews" Logo="images\logo\logo.png" SmallLogo="images\small-logo\small-logo.png" Description="StartupNews" ForegroundText="light" BackgroundColor="#397899">
+        <DefaultTile ShowName="allLogos" WideLogo="images\wide-logo\wide-logo.png" />
+        <SplashScreen Image="images\splash-screen\splash-screen.png" BackgroundColor="#397899" />
+      </VisualElements>
+      <Extensions>
+        <Extension Category="windows.search" />
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

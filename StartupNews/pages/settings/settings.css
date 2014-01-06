@@ -1,0 +1,47 @@
+﻿.settings section[role=main] {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#settings, #privacy {
+    background-color: #397899;
+    z-index: 2000;
+    visibility: visible;
+}
+
+.win-toggleswitch {
+    color: white;
+}
+
+.win-title {
+    color: white;
+}
+
+.win-label {
+    /*background-color: white;*/
+    color: #165474;
+}
+
+.win-content {
+    background-color: #397899;
+    margin: 20px;
+    padding: 10px;
+}
+
+.win-settings-section {
+    background-color: #397899;
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .settings section[role=main] {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .settings section[role=main] {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
